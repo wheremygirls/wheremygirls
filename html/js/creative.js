@@ -46,3 +46,29 @@
     new WOW().init();
 
 })(jQuery); // End of use strict
+
+/*
+ * Register new account
+ */
+function register_new_account() {
+    var username = $("#username").val();
+    if (username == "" || username == undefined) {
+        alert("username shouldn't be null");
+        return;
+    }
+
+    var password = $("#password").val();
+    if (password == "" || password == undefined) {
+        alert("password shouldn't be null");
+        return;
+    }
+
+    var email = $("#email").val();
+    if (email == "" || email == undefined) {
+        alert("email shouldn't be null");
+        return;
+    }
+
+    return;
+}
+
