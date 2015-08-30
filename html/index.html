@@ -74,12 +74,38 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Find your girls</h1>
-                <hr>
-                <p>This website would like to help you to locate your girls position, make sure she is safe when she have to back home alone.</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Start to Find</a>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-6 col-lg-offset-0 text-center">
+                        <h1>Find your girls</h1>
+                        <hr>
+                        <p>This website would like to help you to locate your girls position, make sure she is safe when she have to back home alone.</p>
+                        <a href="#about" class="btn btn-primary btn-xl page-scroll">Start to Find</a>
+                     </div>
+
+                     <div class="col-lg-4 col-lg-offset-1 text-center">
+                        <form class="form-horizontal" role="form" id="form" method="post">
+                           <div class="form-group">
+                              <div class="col-lg-11 col-lg-offset-0">
+                                 <input type="text" class="form-control" id="username"
+                                        placeholder="Pick a username"></input>
+                                 <br>
+                                 <input type="text" class="form-control" id="email"
+                                        placeholder="Your email"></input>
+                                 <br>
+                                 <input type="text" class="form-control" id="password"
+                                        placeholder="Create a password"></input>
+                                 <br>
+                                 <a type="buttom" class="btn btn-success btn-xl"
+                                    href="javascript:register_new_account()"> Sign up </a>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
+         </div>
     </header>
 
     <section class="bg-primary" id="about">
